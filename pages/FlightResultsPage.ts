@@ -95,6 +95,8 @@ export class FlightResultsPage {
 
         await this.page.getByTestId('flight_card_6').getByRole('button', { name: 'View Package' }).click();
         await this.page.waitForTimeout(1000);
+        await this. page.getByRole('button', { name: 'Continue image' }).click();
+        await this.page.waitForTimeout(1000);
       }
       
 

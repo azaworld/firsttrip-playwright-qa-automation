@@ -57,7 +57,7 @@ test.describe('FirstTrip Flight Search Automation', () => {
         
 
         TestHelper.logStep('Step 6: Scrolling and selecting last flight');
-        await flightResultsPage.scrollToLoadAllFlights();
+        //await flightResultsPage.scrollToLoadAllFlights();
         await flightResultsPage.selectLastFlight();
         await TestHelper.takeScreenshot(page, 'last-flight-selected');
 
